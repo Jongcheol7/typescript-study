@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ESNext", //컴파일 결과 생성되는 js 버전
+        "module": "ESNext", //컴파일 결과 생성되는 js 모듈시스템
+        "outDir": "dist",   //컴파일 결과 생성되는 js 파일 위치
+        "strict": true,     //엄격한 타입 검사 여부
+        "moduleDetection": "force", //모든 파일에 export 키워드 자동 추가
+        "skipLibCheck": true,
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src"] //tsc로 컴파일 할 타입스크립트 파일 범위
+}
