@@ -6,6 +6,7 @@
         "strict": true,     //엄격한 타입 검사 여부
         "moduleDetection": "force", //모든 파일에 export 키워드 자동 추가
         "skipLibCheck": true,
+        "allowJs": true
     },
     "ts-node": {
         "esm": true
